@@ -1,0 +1,20 @@
+Program was created by Mikhail
+Helps to encrypt/decrypt supported formats.
+Supported formats: .gif, .bmp.
+
+DESCRIPTION
+
+-i, --info [PATH]
+print information about supported format files
+
+-e, --encrypt [PATH] ["MESSAGE"]
+encrypt message in supported format files
+
+-d, --decrypt [PATH]
+decrypt message from supported format files
+
+-c, --check [PATH]
+print accessibility of encrypting a message in supported format file
+
+-h, --help
+show this help message

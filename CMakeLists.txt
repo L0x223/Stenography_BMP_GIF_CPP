@@ -11,6 +11,8 @@ FetchContent_Declare(
         GIT_TAG         11.1.4
 )
 
+set(CMAKE_EXE_LINKER_FLAGS "-static -static-libgcc -static-libstdc++")
+
 FetchContent_MakeAvailable(fmt)
 
 add_executable(CPROJECT
@@ -21,5 +23,7 @@ add_executable(CPROJECT
         src/ApplicationManager.cpp)
 
 target_include_directories(CPROJECT PRIVATE include src)
+
+configure_file(src/helper.txt helper.txt COPYONLY)
 
 target_link_libraries(CPROJECT fmt)
