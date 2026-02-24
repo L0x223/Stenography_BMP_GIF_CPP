@@ -17,4 +17,4 @@ decrypt message from supported format files
 print accessibility of encrypting a message in supported format file
 
 -h, --help
-Show this help message
+show this help message
