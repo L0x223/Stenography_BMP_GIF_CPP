@@ -1,0 +1,1 @@
+CLI project for file's stenography on c++
